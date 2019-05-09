@@ -1,11 +1,27 @@
 {
-  "posts": [
+  "pipelines": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": 100,
+      "name": "MSN",
+      "url": "http://www.msn.com"
+    },
+    {
+      "id": 200,
+      "name": "Google",
+      "url": "http://www.google.com"
+    },
+    {
+      "id": 300,
+      "name": "The Stack",
+      "url": "http://www.stackoverflow.com"
+    },
+    {
+      "id": 400,
+      "name": "Angular",
+      "url": "https://angular.io/"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "project": {
+    "name": "Mock pipeline automation api"
   }
 }
